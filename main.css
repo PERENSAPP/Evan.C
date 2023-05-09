@@ -1,0 +1,281 @@
+html,
+body {
+  margin: 0;
+  /* width: 100%;
+    height: 100%; */
+  background-color: #131316;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+h1,
+p {
+  color: white;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translateX(-100%);
+}
+
+.indexMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+nav,
+li,
+a {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 60px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.a {
+  position: relative;
+  text-decoration: none;
+  padding: 0px 18px;
+}
+
+.a:after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.a:hover:after {
+  width: 100%;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.peerImg {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.aboutMe {
+  padding-top: 140px;
+}
+
+.aboutMeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMeItems {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutMeH1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 54px;
+  font-weight: 300;
+  color: white;
+  margin: 10px 0px;
+}
+
+.aboutMeP1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  margin: 10px 0px;
+}
+
+.moreAboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.moreAboutItems {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 642.5px;
+}
+
+.moreAboutmeh1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 54px;
+  font-weight: 300;
+  color: white;
+  margin: 10px 0px;
+}
+
+.moreAboutmep1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  margin: 10px 0px;
+}
+
+.textColorChange {
+  color: red;
+  font-weight: 400;
+}
+
+.mainSocial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px
+}
+
+.logoLinks {
+  position: relative;
+  text-decoration: none;
+}
+
+.socialsText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialsTextH1 {
+  font-size: 36px;
+}
+
+p1 {
+  color: white;
+}
+
+.contactsSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  min-height: 80vh;
+}
+
+
+.contact-box {
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: 600;
+  width: 500px;
+  background-color: #131316;
+  top: 47.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 15px;
+}
+
+.form-box {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #edf0f1;
+  margin: 35px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+  border-radius: 14px;
+  outline: none;
+  color: #edf0f1;
+  background-color: #313131;
+  
+}
+
+.text-area {
+  background-color: #313131;
+  height: 70px;
+}
+
+.send-message-button {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #edf0f1;
+  background-color: red;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-top: 18px;
+  padding: 10px;
+}
+
+.favGames{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40vh;
+}
+
+.favGamesDisplay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.imageSpacing{ 
+  padding: 0px 30px;
+}
+
