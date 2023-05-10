@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Socials | Evan Cheung</title>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="/img/pixelPeer.png">
 </head>
@@ -16,7 +16,9 @@
 
     <main class="mainSocial">
         <section class="socialsText">
-            <h1 class="socialsTextH1">Follow me on<span class="textColorChange">.</span></h1>
+            <div class="hidden">
+                <h1 class="socialsTextH1">Follow me on<span class="textColorChange">.</span></h1>
+            </div>
         </section>
 
         <section class="socials">
@@ -34,7 +36,7 @@
             </div>
             <div class="hidden">
                 <a class="logoLinks" target="_blank" href="https://github.com/PERENSAPP"><img src="img/githubLogo.png"
-                        width="150" height="150" alt="github logo"></a>
+                        width="170" height="170" alt="github logo"></a>
             </div>
         </section>
     </main>

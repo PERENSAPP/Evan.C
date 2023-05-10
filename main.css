@@ -131,7 +131,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .moreAboutItems {
@@ -279,3 +279,23 @@ p1 {
   padding: 0px 30px;
 }
 
+
+.h1FollowMe{
+  border-bottom: 2px solid red; 
+  animation: infinite redline 2s linear;
+  }
+
+@keyframes redline {
+  0% {
+    width: 0;
+    margin-left: 0;
+  }
+  50% {
+    width: 100%;
+    margin-left: 0;
+  }
+  100% {
+    width: 0;
+    margin-left: 100%;
+  }
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>About me | Evan Cheung</title>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="/img/pixelPeer.png">
 </head>
@@ -32,10 +32,10 @@
                 <div class="moreAboutItems">
                     <h1 class="">More about me<span class="textColorChange">.</span></h1>
                     <p1 class="aboutMeP1"> I have started my study at the Techniek College Rotterdam in 2022 and have
-                        been making and learning things ever since.
+                        been making and learning things ever since<span class="textColorChange">.</span>
                         From a young age I wanted to work with computers and programming in general and in 2022 the same
                         year I graduated from my middle school (Mavo)
-                        I could finally do what I wanted to do.</span>
+                        I could finally do what I wanted to do<span class="textColorChange">.</span>
                     </p1>
                 </div>
             </div>

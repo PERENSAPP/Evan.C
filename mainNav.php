@@ -1,8 +1,8 @@
 <nav class="hidden">
-    <h1 class=""><a class="a" href="index.php">PEREN_SAPP</a></h1></a>
+    <h1 class=""><a class="a" href="index.php">Home.</a></h1></a>
     <ul>
-        <a class="a" href="index.php">
-            <li>Home.</li>
+        <a class="a" href="https://github.com/PERENSAPP">
+            <li>Projects.</li>
         </a>
         <a class="a" href="aboutMe.php">
             </li>About.</li>
