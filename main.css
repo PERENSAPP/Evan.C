@@ -12,12 +12,8 @@ body {
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
-h1,
-p {
-  color: white;
-}
 
-/* Universally used in most files */
+/* universally used in most files */
 .hidden {
   opacity: 0;
   transition: all 1.5s;
@@ -35,31 +31,14 @@ p {
   transform: translateX(0);
 }
 
-/* */
-
-/* classes that are used in the index.php/html */
-.indexMain {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
+h1,
+p {
+  color: white;
 }
+/*--------------------------------------------------------*/
 
-.introduction {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.peerImg {
-  border-radius: 50%;
-  padding: 20px;
-}
-
-/* */
-
+/* This is used for the navbar and some classes are universally used too.  */
 nav,
 li,
 a {
@@ -106,6 +85,30 @@ li {
 .a:hover:after {
   width: 100%;
 }
+/*--------------------------------------------------------*/
+
+/* classes that are used in the index.php/html */
+.indexMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.peerImg {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/*--------------------------------------------------------*/
 
 /* Classes that are used in the Contact.php/html */
 .aboutMe {
@@ -150,8 +153,6 @@ li {
 /*--------------------------------------------------------*/
 
 
-
-
 .socials {
   display: flex;
   flex-direction: row;
@@ -173,10 +174,6 @@ li {
 
 .socialsTextH1 {
   font-size: 36px;
-}
-
-p1 {
-  color: white;
 }
 
 .contactsSection {
