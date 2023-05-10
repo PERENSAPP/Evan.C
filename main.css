@@ -53,6 +53,11 @@ p {
   align-items: center;
 }
 
+.peerImg {
+  border-radius: 50%;
+  padding: 20px;
+}
+
 /* */
 
 nav,
@@ -100,12 +105,6 @@ li {
 
 .a:hover:after {
   width: 100%;
-}
-
-
-.peerImg {
-  border-radius: 50%;
-  padding: 20px;
 }
 
 /* Classes that are used in the Contact.php/html */
