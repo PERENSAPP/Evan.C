@@ -17,12 +17,27 @@ p {
   color: white;
 }
 
+/* Universally used in most files */
 .hidden {
   opacity: 0;
   transition: all 1.5s;
   transform: translateX(-100%);
 }
 
+.textColorChange {
+  color: red;
+  font-weight: 400;
+
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* */
+
+/* classes that are used in the index.php/html */
 .indexMain {
   display: flex;
   flex-direction: column;
@@ -31,10 +46,14 @@ p {
   min-height: 80vh;
 }
 
-.show {
-  opacity: 1;
-  transform: translateX(0);
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+/* */
 
 nav,
 li,
@@ -83,18 +102,13 @@ li {
   width: 100%;
 }
 
-.introduction {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .peerImg {
   border-radius: 50%;
   padding: 20px;
 }
 
+/* Classes that are used in the Contact.php/html */
 .aboutMe {
   padding-top: 70px;
 }
@@ -105,10 +119,11 @@ li {
   align-items: center;
 }
 
-.aboutMeItems {
+.moreAboutMe {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
 }
 
 .aboutMeH1 {
@@ -127,48 +142,16 @@ li {
   margin: 10px 0px;
 }
 
-.moreAboutMe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-}
-
-.moreAboutItems {
+.aboutMeItems {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 642.5px;
 }
+/*--------------------------------------------------------*/
 
-.moreAboutmeh1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 54px;
-  font-weight: 300;
-  color: white;
-  margin: 10px 0px;
-}
 
-.moreAboutmep1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: 100;
-  color: white;
-  margin: 10px 0px;
-}
 
-.textColorChange {
-  color: red;
-  font-weight: 400;
-}
-
-.mainSocial {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
-}
 
 .socials {
   display: flex;
@@ -237,7 +220,7 @@ p1 {
   outline: none;
   color: #edf0f1;
   background-color: #313131;
-  
+
 }
 
 .text-area {
@@ -260,7 +243,7 @@ p1 {
   padding: 10px;
 }
 
-.favGames{ 
+.favGames {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,32 +251,34 @@ p1 {
   min-height: 40vh;
 }
 
-.favGamesDisplay{
+.favGamesDisplay {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-.imageSpacing{ 
+.imageSpacing {
   padding: 0px 30px;
 }
 
 
-.h1FollowMe{
-  border-bottom: 2px solid red; 
+.h1FollowMe {
+  border-bottom: 2px solid red;
   animation: infinite redline 2s linear;
-  }
+}
 
 @keyframes redline {
   0% {
     width: 0;
     margin-left: 0;
   }
+
   50% {
     width: 100%;
     margin-left: 0;
   }
+
   100% {
     width: 0;
     margin-left: 100%;
