@@ -11,28 +11,13 @@
 </head>
 
 <body>
-    <nav class="hidden">
-        <h1 class=""><a class="a" href="index.html">PEREN_SAPP</a></h1></a>
-        <ul>
-            <a class="a" href="index.html">
-                <li>Home.</li>
-            </a>
-            <a class="a" href="aboutMe.html">
-                </li>About.</li>
-            </a>
-            <a class="a" href="social.html">
-                <li>Socials.</li>
-            </a>
-            <a class="a" href="contacts.html">
-                <li>Contact. </li>
-            </a>
-        </ul>
-    </nav>
-    
+
+    <?php require "mainNav.php" ?>
+
     <main class="indexMain">
         <section class="introduction">
             <div class="welkomText, hidden">
-                <h1>Hi I'm PEREN_SAPP<span class="textColorChange">.</span></h1>
+                <h1>Hi I'm Evan Cheung.<span class="textColorChange">.</span></h1>
             </div>
             <div class="pearPic, hidden">
                 <img class="peerImg" src="img/pixelPeer.png" witdh="220" height="220" alt="pixel foto met peer ">
@@ -41,4 +26,5 @@
     </main>
     <script src="main.js"></script>
 </body>
+
 </html>
