@@ -152,6 +152,9 @@ li {
 }
 /*--------------------------------------------------------*/
 
+.mainSocial{ 
+  margin-top: 50px;
+}
 
 .socials {
   display: flex;
@@ -175,6 +178,12 @@ li {
 .socialsTextH1 {
   font-size: 36px;
 }
+
+
+
+
+
+
 
 .contactsSection {
   display: flex;
